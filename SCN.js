@@ -1,8 +1,3 @@
-$("#os-phrases > h2")
-    .css('opacity', 1).lettering( 'words' )
-    .children( "span" ).lettering()
-    .children( "span" ).lettering();
-
 //Still having trouble calling two CDN scripts (jQuery); therefore, I typed in file: to ensure functionality.  Each scriprt has been reference; and credit has been given to the original author.//
 /*Script reference https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js*/
 /*! jQuery v2.1.3 | (c) 2005, 2014 jQuery Foundation, Inc. | jquery.org/license */
@@ -3084,7 +3079,7 @@ $("#os-phrases > h2")
                                                                                                                                                                                                                                                                                                         return n.noConflict=function(b){
                                                                                                                                                                                                                                                                                                             return a.$===n&&(a.$=Lc),b&&a.jQuery===n&&(a.jQuery=Kc),n},typeof b===U&&(a.jQuery=a.$=n),n
                                                                                                                                                                                                                                                                                                         });
-                                                                                                                                                                                                                                                                                                        
+
 //# sourceMappingURL=jquery.min.map
     
 /*Script reference "https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"*/
@@ -3127,3 +3122,8 @@ $("#os-phrases > h2")
         return this
     }
 })(jQuery);
+
+$("#os-phrases > h2")
+    .css('opacity', 1).lettering( 'words' )
+    .children( "span" ).lettering()
+    .children( "span" ).lettering();
