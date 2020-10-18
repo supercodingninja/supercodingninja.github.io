@@ -2,6 +2,10 @@ html {
     background-color: black;
 }
 
+audio {
+display: none;
+}
+
 .os-phrases h2 {
 	font-family: 'Dosis', 'Lato', sans-serif;
 	font-size: 30px;
