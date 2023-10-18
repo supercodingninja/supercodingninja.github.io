@@ -1,6 +1,3 @@
-//audio autoplay//
-//audioElement.play();//
-
 //Learning to clone, pull, and push (git)//
 
 $("#os-phrases > h2")
